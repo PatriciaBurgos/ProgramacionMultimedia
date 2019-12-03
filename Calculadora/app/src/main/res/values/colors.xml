@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO averiguar donde tengo que poner los colores -->
+    <color name="colorPrimary">#F1F3F3</color>
+    <color name="colorPrimaryDark">#A0A0A0</color>
+    <color name="colorAccent">#FC6E51</color>
+</resources>

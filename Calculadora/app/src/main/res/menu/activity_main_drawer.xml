@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- TODO aqui se establecen los items del menu -->
+    <!-- TODO poner los iconos correctos -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_standard"
+            android:icon="@drawable/ic_action_standard"
+            android:title="@string/menu_standard" />
+        <item
+            android:id="@+id/nav_scientific"
+            android:icon="@drawable/ic_action_scientific"
+            android:title="@string/menu_scientific" />
+        <item
+            android:id="@+id/nav_mortgage"
+            android:icon="@drawable/ic_action_mortgage"
+            android:title="@string/menu_mortgage" />
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/ic_action_currency"
+            android:title="@string/menu_currency" />
+        <item
+            android:id="@+id/nav_length"
+            android:icon="@drawable/ic_action_length"
+            android:title="@string/menu_length" />
+        <item
+            android:id="@+id/nav_area"
+            android:icon="@drawable/ic_action_area"
+            android:title="@string/menu_area" />
+        <item
+            android:id="@+id/nav_volume"
+            android:icon="@drawable/ic_action_volume"
+            android:title="@string/menu_volume" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_action_temperature"
+            android:title="@string/menu_temperature" />
+        <item
+            android:id="@+id/nav_speed"
+            android:icon="@drawable/ic_action_speed"
+            android:title="@string/menu_speed" />
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/ic_action_time"
+            android:title="@string/menu_time" />
+        <item
+            android:id="@+id/nav_mass"
+            android:icon="@drawable/ic_action_mass"
+            android:title="@string/menu_mass" />
+    </group>
+
+</menu>

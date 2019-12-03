@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculator Patri</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Calculator</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO Poner los nombres del menu-->
+    <string name="menu_standard">Standard</string>
+    <string name="menu_scientific">Scientific</string>
+    <string name="menu_mortgage">Mortgage</string>
+    <string name="menu_currency">Currency</string>
+    <string name="menu_length">Length</string>
+    <string name="menu_area">Area</string>
+    <string name="menu_volume">Volume</string>
+    <string name="menu_temperature">Temperature</string>
+    <string name="menu_speed">Speed</string>
+    <string name="menu_time">Time</string>
+    <string name="menu_mass">Mass</string>
+</resources>

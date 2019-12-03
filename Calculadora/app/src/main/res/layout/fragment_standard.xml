@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E6E6">
+
+
+    <!-- TODO aqui se hace el layout de la calculadora-->
+    <!-- TODO poner todos los botones con borde -->
+
+    <Button
+        android:id="@+id/bot_sum"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="+"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_siete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_siete"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="7"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_cuatro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_ocho"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="8"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_cinco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_nueve"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="9"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_seis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_ac"
+        android:layout_width="104dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="AC"
+        android:textColor="#FC6E51"
+        android:textColorLink="#FC6E51"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_igual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_cuatro"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="4"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_uno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_cinco"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="5"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_dos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_seis"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="6"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_tres"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_dos"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="2"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_cero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_tres"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="3"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_punto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_cero"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="0"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_punto"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="."
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_borrar"
+        android:layout_width="107dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="⌫"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_igual"
+        android:layout_width="104dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="488dp"
+        android:background="#FC6E51"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="="
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_borrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_uno"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="1"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_porc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_porc"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="%"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_res"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="-"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_ocho"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">>
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_mul"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="×"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_nueve"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">>
+
+    </Button>
+
+    <Button
+        android:id="@+id/bot_div"
+        android:layout_width="104dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="336dp"
+        android:background="@drawable/borderboton"
+        android:fontFamily="sans-serif-light"
+        android:stateListAnimator="@null"
+        android:text="÷"
+        android:textSize="35sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/bot_ac"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/text_num_introd"
+        android:layout_width="369dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="textEnd"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bot_div"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/text_cuenta"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bot_div"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

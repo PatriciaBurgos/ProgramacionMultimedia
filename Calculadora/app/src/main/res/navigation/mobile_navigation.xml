@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_standard">
+
+    <!-- TODO crear todos los fragments y añadirlos aqui -->
+    <!-- TODO si da fallo, crear todos los fragment de los otros menus -->
+
+    <fragment
+        android:id="@+id/nav_standard"
+        android:name="com.example.myapplication.ui.standard.StandardFragment"
+        android:label="@string/menu_standard"
+        tools:layout="@layout/fragment_standard" />
+
+    <fragment
+        android:id="@+id/nav_scientific"
+        android:name="com.example.myapplication.ui.scientific.ScientificFragment"
+        android:label="@string/menu_scientific"
+        tools:layout="@layout/fragment_scientific" />
+
+    <fragment
+        android:id="@+id/nav_mortgage"
+        android:name="com.example.myapplication.ui.mortgage.MortgageFragment"
+        android:label="@string/menu_mortgage"
+        tools:layout="@layout/fragment_mortgage" />
+
+    <fragment
+        android:id="@+id/nav_currency"
+        android:name="com.example.myapplication.ui.currency.CurrencyFragment"
+        android:label="@string/menu_currency"
+        tools:layout="@layout/fragment_currency" />
+
+    <fragment
+        android:id="@+id/nav_length"
+        android:name="com.example.myapplication.ui.length.LengthFragment"
+        android:label="@string/menu_length"
+        tools:layout="@layout/fragment_length" />
+
+    <fragment
+        android:id="@+id/nav_area"
+        android:name="com.example.myapplication.ui.area.AreaFragment"
+        android:label="@string/menu_area"
+        tools:layout="@layout/fragment_area" />
+</navigation>
